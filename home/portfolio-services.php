@@ -1,7 +1,36 @@
+<style>
+  .service-item {
+        text-align: center;
+        padding: 30px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        background-color: #f8f9fa;
+        margin-bottom: 30px;
+        transition: box-shadow 0.3s ease;
+        min-height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; 
+    }
+
+  .service-item:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  .service-icon {
+        font-size: 40px;
+        color: #f66640;
+        margin-bottom: 20px;
+    }
+
+  .service-item:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+</style>
+
 <section class="portfolio py-5">
     <div class="container">
       <div class="justify-content-center">
-
         <div class="row justify-content-center">
           <div class="col-lg-col-10" data-aos="fade-up">
             <div class="section-header text-center">
@@ -27,86 +56,75 @@
             <?php include 'home/qualifications.php'; ?>
           </div>
 
-          <div id="filters" class="button-group d-flex flex-wrap gap-3 justify-content-center py-5" data-aos="fade-up">
-            <a href="#" class="btn btn-primary text-decoration-none text-uppercase is-checked"
-              data-filter=".photography">Photography</a>
-            <a href="#" class="btn btn-primary text-decoration-none text-uppercase" data-filter=".graphicdesign">Graphic
-              Design</a>
-            <a href="#" class="btn btn-primary text-decoration-none text-uppercase"
-              data-filter=".illustrations">Illustrations</a>
-            <a href="#" class="btn btn-primary text-decoration-none text-uppercase" data-filter=".branding">Branding</a>
-          </div>
-        </div>
-
-        <div class="grid p-0 clearfix row row-cols-2 row-cols-lg-3 row-cols-xl-4" data-aos="fade-up">
-          <div class="col mb-4 portfolio-item photography">
-            <a href="images/illustration-1.jpg" data-lightbox="illustration-1" data-title="illustration-1"
-              title="Sample Caption goes here for Portfolio Item 1."><img src="images/illustration-1.jpg"
-                class="img-fluid rounded-4" alt="portfolio"></a>
-          </div>
-          <div class="col mb-4 portfolio-item photography graphicdesign illustrations">
-            <a href="images/illustration-2.jpg" data-lightbox="illustration-2" data-title="illustration-2"
-              title="Sample Caption goes here for Portfolio Item 2."><img src="images/illustration-2.jpg"
-                class="img-fluid rounded-4" alt="portfolio"></a>
-          </div>
-          <div class="col mb-4 portfolio-item branding graphicdesign">
-            <a href="images/illustration-3.jpg" data-lightbox="illustration-3" data-title="illustration-3"
-              title="Sample Caption goes here for Portfolio Item 3."><img src="images/illustration-3.jpg"
-                class="img-fluid rounded-4" alt="portfolio"></a>
-          </div>
-          <div class="col mb-4 portfolio-item graphicdesign">
-            <a href="images/illustration-4.jpg" data-lightbox="illustration-4" data-title="illustration-4"
-              title="Sample Caption goes here for Portfolio Item 4."><img src="images/illustration-4.jpg"
-                class="img-fluid rounded-4" alt="portfolio"></a>
-          </div>
-          <div class="col mb-4 portfolio-item photography illustrations">
-            <a href="images/illustration-5.jpg" data-lightbox="illustration-5" data-title="illustration-5"
-              title="Sample Caption goes here for Portfolio Item 5."><img src="images/illustration-5.jpg"
-                class="img-fluid rounded-4" alt="portfolio"></a>
-          </div>
-          <div class="col mb-4 portfolio-item graphicdesign">
-            <a href="images/illustration-1.jpg" data-lightbox="illustration-1" data-title="illustration-1"
-              title="Sample Caption goes here for Portfolio Item 6."><img src="images/illustration-1.jpg"
-                class="img-fluid rounded-4" alt="portfolio"></a>
-          </div>
-          <div class="col mb-4 portfolio-item graphicdesign photography">
-            <a href="images/illustration-2.jpg" data-lightbox="illustration-2" data-title="illustration-2"
-              title="Sample Caption goes here for Portfolio Item 7."><img src="images/illustration-2.jpg"
-                class="img-fluid rounded-4" alt="portfolio"></a>
-          </div>
-          <div class="col mb-4 portfolio-item illustrations graphicdesign">
-            <a href="images/illustration-3.jpg" data-lightbox="illustration-3" data-title="illustration-3"
-              title="Sample Caption goes here for Portfolio Item 8."><img src="images/illustration-3.jpg"
-                class="img-fluid rounded-4" alt="portfolio"></a>
-          </div>
-          <div class="col mb-4 portfolio-item branding photography graphicdesign">
-            <a href="images/illustration-4.jpg" data-lightbox="illustration-4" data-title="illustration-4"
-              title="Sample Caption goes here for Portfolio Item 9."><img src="images/illustration-4.jpg"
-                class="img-fluid rounded-4" alt="portfolio"></a>
-          </div>
-          <div class="col mb-4 portfolio-item illustrations graphicdesign branding">
-            <a href="images/illustration-5.jpg" data-lightbox="illustration-5" data-title="illustration-5"
-              title="Sample Caption goes here for Portfolio Item1 0."><img src="images/illustration-5.jpg"
-                class="img-fluid rounded-4" alt="portfolio"></a>
-          </div>
-          <div class="col mb-4 portfolio-item photography">
-            <a href="images/illustration-1.jpg" data-lightbox="illustration-1" data-title="illustration-1"
-              title="Sample Caption goes here for Portfolio Item1 1."><img src="images/illustration-1.jpg"
-                class="img-fluid rounded-4" alt="portfolio"></a>
-          </div>
-          <div class="col mb-4 portfolio-item photography">
-            <a href="images/illustration-2.jpg" data-lightbox="illustration-2" data-title="illustration-2"
-              title="Sample Caption goes here for Portfolio Item1 2."><img src="images/illustration-2.jpg"
-                class="img-fluid rounded-4" alt="portfolio"></a>
-          </div>
-
-        </div>
-
-        <div class="text-center p-3">
-          <a href="index.html" class="btn btn-outline-dark btn-lg mt-3 text-uppercase text-decoration-none">
-            View All Works
-          </a>
-        </div>
+        <section>
+            <div class="text-center">
+                <h2 class="display-3 mb-5">
+                Services
+                </h2>
+            </div>
+            <div class="container" style="margin-50px">
+                <div class="row" style="margin-20px">
+                    <!-- Service 1 -->
+                    <div class="col-md-4">
+                        <div class="service-item">
+                            <i class="fas fa-user service-icon"></i>
+                            <h3>Individual Counseling</h3>
+                            <p>Personalized support to help you navigate life's challenges and build resilience.</p>
+                        </div>
+                    </div>
+                    <!-- Service 2 -->
+                    <div class="col-md-4">
+                        <div class="service-item">
+                            <i class="fas fa-home service-icon"></i>
+                            <h3>Family Counseling</h3>
+                            <p>Strengthening family bonds through open communication and understanding.</p>
+                        </div>
+                    </div>
+                    <!-- Service 3 -->
+                    <div class="col-md-4">
+                        <div class="service-item">
+                            <i class="fas fa-heart service-icon"></i>
+                            <h3>Relationship Counseling</h3>
+                            <p>Helping couples foster trust, connection, and mutual growth.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="margin-20px">
+                    <!-- Service 4 -->
+                    <div class="col-md-4">
+                        <div class="service-item">
+                            <i class="fas fa-child service-icon"></i>
+                            <h3>Child & Adolescent Counseling</h3>
+                            <p>Guiding young minds through emotional and developmental hurdles.</p>
+                        </div>
+                    </div>
+                    <!-- Service 5 -->
+                    <div class="col-md-4">
+                        <div class="service-item">
+                            <i class="fas fa-brain service-icon"></i>
+                            <h3>Cognitive Behavioral Therapy (CBT)</h3>
+                            <p>Transforming negative thought patterns for a healthier mindset.</p>
+                        </div>
+                    </div>
+                    <!-- Service 6 -->
+                    <div class="col-md-4">
+                        <div class="service-item">
+                            <i class="fas fa-pen-fancy service-icon"></i>
+                            <h3>Handwriting Analysis</h3>
+                            <p>Unlocking insights into personality through the art of handwriting.</p>
+                        </div>
+                    </div>
+                    <!-- Service 7 -->
+                    <div class="col-md-4">
+                        <div class="service-item">
+                            <i class="fas fa-palette service-icon"></i>
+                            <h3>Expressive Art Therapy</h3>
+                            <p>Healing through creative expression and self-discovery.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         </div>
     </div> 
