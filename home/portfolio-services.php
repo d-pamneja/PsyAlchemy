@@ -41,7 +41,7 @@
                     <div class="container" style="margin-50px">
                         <div class="row" style="margin-20px">
                             <!-- Service 1 -->
-                            <div class="col-md-4">
+                            <div class="col-md-4" data-aos="fade-down">
                                 <div class="service-item">
                                     <i class="fas fa-user service-icon"></i>
                                     <h3>Individual Counseling</h3>
@@ -50,7 +50,7 @@
                                 </div>
                             </div>
                             <!-- Service 2 -->
-                            <div class="col-md-4">
+                            <div class="col-md-4" data-aos="fade-down">
                                 <div class="service-item">
                                     <i class="fas fa-home service-icon"></i>
                                     <h3>Family Counseling</h3>
@@ -58,7 +58,7 @@
                                 </div>
                             </div>
                             <!-- Service 3 -->
-                            <div class="col-md-4">
+                            <div class="col-md-4" data-aos="fade-down">
                                 <div class="service-item">
                                     <i class="fas fa-heart service-icon"></i>
                                     <h3>Relationship Counseling</h3>
@@ -68,7 +68,7 @@
                         </div>
                         <div class="row" style="margin-20px">
                             <!-- Service 4 -->
-                            <div class="col-md-4">
+                            <div class="col-md-4" data-aos="fade-down">
                                 <div class="service-item">
                                     <i class="fas fa-child service-icon"></i>
                                     <h3>Child & Adolescent Counseling</h3>
@@ -76,7 +76,7 @@
                                 </div>
                             </div>
                             <!-- Service 5 -->
-                            <div class="col-md-4">
+                            <div class="col-md-4" data-aos="fade-down">
                                 <div class="service-item">
                                     <i class="fas fa-brain service-icon"></i>
                                     <h3>Cognitive Behavioral Therapy (CBT)</h3>
@@ -84,7 +84,7 @@
                                 </div>
                             </div>
                             <!-- Service 6 -->
-                            <div class="col-md-4">
+                            <div class="col-md-4" data-aos="fade-down">
                                 <div class="service-item">
                                     <i class="fas fa-pen-fancy service-icon"></i>
                                     <h3>Handwriting Analysis</h3>
@@ -92,7 +92,7 @@
                                 </div>
                             </div>
                             <!-- Service 7 -->
-                            <div class="col-md-4">
+                            <div class="col-md-4" data-aos="fade-down">
                                 <div class="service-item">
                                     <i class="fas fa-palette service-icon"></i>
                                     <h3>Expressive Art Therapy</h3>

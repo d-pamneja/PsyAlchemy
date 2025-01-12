@@ -9,7 +9,7 @@
             </p>
         </div>
         <div class="row py-4">
-            <div class="col-lg-6 p-3 mx-auto">
+            <div class="col-lg-6 p-3 mx-auto" data-aos="zoom-in">
                 <a href="blogs/did.php">
                     <div class="post-item p-3 border rounded-5" style="background-color: white">
                         <div class="row g-md-5">
