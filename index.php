@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>jessica</title>
+  <title>PsyAlchemy</title>
   <!-- Required meta tags -->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -92,63 +92,7 @@
   <header id="top" class="position-sticky top-0 start-0" style="z-index:10;">
     <nav class="navbar bg-white fixed-top">
       <div class="container-fluid">
-        <div class="d-flex align-items-center g-4">
-          <a class="navbar-brand d-flex" href="index.html">
-            <img src="images/logo.png" class="img-fluid" id="logo">
-          </a>
-          <div class="icon px-5">
-            <a href="#" class="text-decoration-none">
-              <svg class="skype" width="24" height="24">
-                <use xlink:href="#skype"></use>
-              </svg>
-            </a>
-            <a href="#" class="text-decoration-none">
-              <svg class="snapchat" width="24" height="24">
-                <use xlink:href="#snapchat"></use>
-              </svg>
-            </a>
-            <a href="#" class="text-decoration-none">
-              <svg class="telegram" width="24" height="24">
-                <use xlink:href="#telegram"></use>
-              </svg>
-            </a>
-            <a href="#" class="text-decoration-none">
-              <svg class="tumblr" width="24" height="24">
-                <use xlink:href="#tumblr"></use>
-              </svg>
-            </a>
-            <a href="#" class="text-decoration-none">
-              <svg class="twitter" width="24" height="24">
-                <use xlink:href="#twitter"></use>
-              </svg>
-            </a>
-            <a href="#" class="text-decoration-none">
-              <svg class="whatsapp" width="24" height="24">
-                <use xlink:href="#whatsapp"></use>
-              </svg>
-            </a>
-            <a href="#" class="text-decoration-none">
-              <svg class="github" width="24" height="24">
-                <use xlink:href="#github"></use>
-              </svg>
-            </a>
-            <a href="#" class="text-decoration-none">
-              <svg class="facebook" width="24" height="24">
-                <use xlink:href="#facebook"></use>
-              </svg>
-            </a>
-            <a href="#" class="text-decoration-none">
-              <svg class="messenger" width="24" height="24">
-                <use xlink:href="#messenger"></use>
-              </svg>
-            </a>
-            <a href="#" class="text-decoration-none">
-              <svg class="behance" width="24" height="24">
-                <use xlink:href="#behance"></use>
-              </svg>
-            </a>
-          </div>
-        </div>
+        <?php include 'header-top.php'; ?>
         <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas"
           data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
           <span class="navabar-toggler-icon">
