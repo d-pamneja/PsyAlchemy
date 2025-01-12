@@ -99,6 +99,7 @@
 
     <div id="about-section">
         <?php include 'home/profession.php'; ?>
+        <?php include 'home/about.php'; ?>
     </div>
 
     <div id="services-section">
