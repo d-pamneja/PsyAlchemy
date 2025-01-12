@@ -3,7 +3,7 @@
         <div class="row g-md-5 my-5">
         <div class="col-md-4">
             <div class="info-box">
-            <img src="images/logo-2.png" class="img-fluid">
+            <img src="images/name-logo-2.png" class="img-fluid" height="200px" width="200px">
             <p class="py-4">
                 Subscribe to newsletter to get some updates related with branding, designs and more.
             </p>
@@ -52,10 +52,7 @@
                     <a class="text-decoration-none text-white" href="#">About</a>
                 </li>
                 <li>
-                    <a class="text-decoration-none text-white" href="index.html">Team</a>
-                </li>
-                <li>
-                    <a class="text-decoration-none text-white" href="index.html">Portfolio</a>
+                    <a class="text-decoration-none text-white" href="index.html">Services</a>
                 </li>
                 </ul>
             </div>
@@ -74,12 +71,9 @@
             Just feel free to contact if you wanna collaborate with me, or simply have a conversation.
             </p>
             <h3>
-            <a href="mailto:contact@yourwebsite.com" class="text-white text-decoration-none">contact@yourwebsite.com</a>
+            <a href="mailto:palchhinsharma22@gmail.com" class="text-white text-decoration-none">palchhinsharma22@gmail.com</a>
             </h3>
         </div>
-        </div>
-        <div class="row">
-        <p>©2024 Jessica. Free HTML Template by <a href="https://templatesjungle.com/" class="text-white" target="_blank">TemplatesJungle</a>. Distributed By <a href="https://themewagon.com" class="text-white" target="blamk">ThemeWagon</a> </p>
         </div>
     </div>
 </footer>
