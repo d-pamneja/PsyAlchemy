@@ -29,6 +29,10 @@
     <!-- Swiper JS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <!--style sheet-->
+
+     <!--AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -95,7 +99,9 @@
 
     <?php include 'shared/header.php'; ?>
 
-    <?php include 'home/main-banner.php'; ?>
+    <div id="home-section">
+      <?php include 'home/main-banner.php'; ?>
+    </div>
 
     <div id="about-section">
         <?php include 'home/profession.php'; ?>
@@ -108,7 +114,7 @@
     <div id="blogs-section">
         <?php include("home/latestblogs.php")?>
     </div>
-    <div id="faqs-section">
+    <div id="faqs-section" style="margin-bottom:50px">
         <?php include("home/faqs.php")?>
     </div>
     <div id="contact-section">
@@ -208,6 +214,11 @@
         effect: 'slide',
     });
     </script>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>

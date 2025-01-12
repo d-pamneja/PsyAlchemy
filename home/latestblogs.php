@@ -8,10 +8,10 @@
                 Read our latest blogs to stay updated with our research and findings.
             </p>
         </div>
-        <div class="row py-4" style="background-color: white">
-            <div class="col-lg-6 p-3">
+        <div class="row py-4">
+            <div class="col-lg-6 p-3 mx-auto">
                 <a href="blogs/did.php">
-                    <div class="post-item p-3 border rounded-5">
+                    <div class="post-item p-3 border rounded-5" style="background-color: white">
                         <div class="row g-md-5">
                             <div class="col-lg-5">
                                 <img src="images/post-thumb-1.jpg" class="img-fluid rounded-4">
