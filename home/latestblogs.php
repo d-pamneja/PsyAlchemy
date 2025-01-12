@@ -9,7 +9,7 @@
                 </p>
             </div>
             <div class="row py-4">
-                    <div class="col-lg-12 p-3">
+                    <div class="col-lg-6 p-3">
                         <a href="blogs/did.php">
                             <div class="post-item p-3 border rounded-5">
                                 <div class="row g-md-5">
