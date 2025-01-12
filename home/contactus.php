@@ -1,5 +1,6 @@
 <section class="p-5 bg-yellow py-5">
-        <div class="container">
+    <div class="container">
+        <form id="contact-form" action="processRequest.php" method="post">
             <div class="row justify-content-center my-5">
                 <div class="col-md-5">
                     <h6>
@@ -18,6 +19,10 @@
                             aria-describedby="nameHelpId" placeholder="your name" />
                     </div>
                     <div class="mb-3">
+                        <input type="subject" class="form-control p-3 rounded-4" name="subject" id="subject"
+                            aria-describedby="nameHelpId" placeholder="Subject" />
+                    </div>
+                    <div class="mb-3">
                         <input type="email" class="form-control p-3 rounded-4" name="email" id="email"
                             aria-describedby="emailHelpId" placeholder="your email" />
                     </div>
@@ -26,11 +31,12 @@
                             id="message" rows="3"></textarea>
                     </div>
                     <div class="d-grid">
-                        <button type="button" class="btn btn-dark btn-lg text-uppercase rounded-4">
+                        <button type="button" id="form-submit" class="btn btn-dark btn-lg text-uppercase rounded-4">
                             Submit
                         </button>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </form>
+    </div>
+</section>
