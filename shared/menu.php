@@ -15,7 +15,7 @@
     <div class="offcanvas-body">
     <ul class="navbar-nav flex-grow-1 p-4">
         <li class="nav-item">
-        <a class="nav-link active text-uppercase ls-4 text-white" aria-current="page" href="index.php">Home</a>
+        <a class="nav-link active text-uppercase ls-4 text-white" aria-current="page" href="#home-section">Home</a>
         </li>
         <li class="nav-item">
         <a class="nav-link text-uppercase ls-4 text-white" aria-current="page" href="#about-section">About 
