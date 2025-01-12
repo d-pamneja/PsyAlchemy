@@ -105,19 +105,12 @@
     <div id="services-section">
         <?php include 'home/portfolio-services.php'; ?>
     </div>
-
-    <div id="testimonials-section">
-        <?php include("home/testimonials.php")?>
-    </div>
-
-    <div id="faqs-section">
-        <?php include("home/faqs.php")?>
-    </div>
-
     <div id="blogs-section">
         <?php include("home/latestblogs.php")?>
     </div>
-
+    <div id="faqs-section">
+        <?php include("home/faqs.php")?>
+    </div>
     <div id="contact-section">
         <?php include("home/contactus.php")?>
     </div>
