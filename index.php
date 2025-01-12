@@ -91,14 +91,12 @@
 
   <?php include 'home/main-banner.php'; ?>
   <?php include 'home/profession.php'; ?>
-  <?php include 'home/qualifications.php'; ?>
-  <?php include 'home/references.php'; ?>
   <?php include 'home/portfolio-services.php'; ?>
   <?php include("home/testimonials.php")?>
   <?php include("home/faqs.php")?>
   <?php include("home/latestblogs.php")?>
   <?php include("home/contactus.php")?>
-  
+
   <?php include 'shared/footer.php'; ?>
 
   <!-- Bootstrap JavaScript Libraries -->

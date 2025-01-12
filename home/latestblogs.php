@@ -9,24 +9,27 @@
                 </p>
             </div>
             <div class="row py-4">
-                <div class="col-lg-6 p-3">
-                    <div class="post-item p-3 border rounded-5">
-                        <div class="row g-md-5">
-                            <div class="col-lg-5">
-                                <img src="images/post-thumb-1.jpg" class="img-fluid rounded-4">
-                            </div>
-                            <div class="col-lg-7">
-                                <p class="text-uppercase text-muted mt-3">
-                                    Design / Sept 12, 2022
-                                </p>
-                                <h3>
-                                    Graphic Designing Useful Tips & Best Practices
-                                </h3>
-                            </div>
+                    <div class="col-lg-6 p-3">
+                        <a href="blogs/did.php">
+                            <div class="post-item p-3 border rounded-5">
+                                <div class="row g-md-5">
+                                    <div class="col-lg-5">
+                                        <img src="images/post-thumb-1.jpg" class="img-fluid rounded-4">
+                                    </div>
+                                    <div class="col-lg-7">
+                                        <p class="text-uppercase text-muted mt-3">
+                                            Design / Sept 12, 2022
+                                        </p>
+                                        <h3>
+                                            Graphic Designing Useful Tips & Best Practices
+                                        </h3>
+                                    </div>
 
-                        </div>
+                                </div>
+                            </div>
+                        </a>
                     </div>
-                </div>
+                
                 <div class="col-lg-6 p-3">
                     <div class="post-item p-3 border rounded-5">
                         <div class="row g-md-5">
