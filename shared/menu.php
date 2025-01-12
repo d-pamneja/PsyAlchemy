@@ -27,15 +27,11 @@
         </a>
         </li>
         <li class="nav-item">
-        <a class="nav-link text-uppercase ls-4 text-white" aria-current="page" href="#testimonials-section">Testimonials
+        <a class="nav-link text-uppercase ls-4 text-white" aria-current="page" href="#blogs-section">Blog 
         </a>
         </li>
         <li class="nav-item">
         <a class="nav-link text-uppercase ls-4 text-white" aria-current="page" href="#faqs-section">FAQs 
-        </a>
-        </li>
-        <li class="nav-item">
-        <a class="nav-link text-uppercase ls-4 text-white" aria-current="page" href="#blogs-section">Blog 
         </a>
         </li>
         <li class="nav-item">
