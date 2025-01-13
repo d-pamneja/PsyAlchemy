@@ -36,10 +36,8 @@
             
             </div>
         </div>
-        <div class="rounded-4 p-5 position-relative" style="width: 700px;height: 600px;margin-right : 30px; background-image: url(images/personal-pic.jpeg); background-size: cover; background-repeat: no-repeat;">
+        <div class="rounded-4 p-5 position-relative d-none d-lg-block" style="width: 700px;height: 600px;margin-right : 30px; background-image: url(images/personal-pic.jpeg); background-size: cover; background-repeat: no-repeat;">
             <!-- IMAGE -->
         </div>
     </div>
 </section>
-
-
