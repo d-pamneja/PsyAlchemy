@@ -1,4 +1,9 @@
 <section class="portfolio py-5" style="background-color:#fff4f3">
+    <div class="text-center">
+        <h2 class="display-3 mb-5">
+            About Me
+        </h2>
+    </div>
     <div class="container">
         <div class="justify-content-center">
             <div class="row justify-content-center">
@@ -28,12 +33,6 @@
                             into meaningful change!
                         </h4>
                     </div>
-                    <!--section-header-->
-                </div>
-
-
-                <div style="margin: 50px;">
-                    <?php include 'home/qualifications.php'; ?>
                 </div>
             </div>
         </div>
