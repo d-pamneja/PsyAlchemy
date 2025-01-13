@@ -99,7 +99,7 @@
 
     <?php include 'shared/header.php'; ?>
 
-    <div id="home-section">
+    <div id="home-section" data-aos="zoom-in-up" data-aos-duration="1000">
       <?php include 'home/main-banner.php'; ?>
     </div>
 
@@ -114,10 +114,10 @@
     <div id="blogs-section">
         <?php include("home/latestblogs.php")?>
     </div>
-    <div id="faqs-section" style="margin-bottom:50px">
+    <div id="faqs-section" data-aos="fade-up" style="margin-bottom:50px">
         <?php include("home/faqs.php")?>
     </div>
-    <div id="contact-section">
+    <div id="contact-section" data-aos="fade-up">
         <?php include("home/contactus.php")?>
     </div>
 
