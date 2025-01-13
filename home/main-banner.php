@@ -1,7 +1,7 @@
-<section>
-    <div class="container">
-        <div class="banner rounded-4 p-5 position-relative" style="margin-bottom : 30px; background-image: url(images/banner.png); background-size: cover; background-repeat: no-repeat; background-position: 60% 50%;">
-            <div class="text-content text-white py-5 my-5">
+<section style="margin-bottom : 70px;">
+    <div class="container d-flex align-items-center justify-content-between">
+        <div class="banner rounded-4 p-5 position-relative">
+            <div class="text-content text-black py-5">
                 <p class="fs-4">
                     Psychologist | CBT Therapist | Graphologist
                 </p>
@@ -12,7 +12,7 @@
                     BA + MA in Clinical Psychology
                 </p>
             </div>
-            <div class="row text-uppercase bg-black rounded-4 p-3 mt-5" style="width: 600px;">
+            <div class="row text-uppercase bg-black rounded-4 p-3 mt-5" style="width: 500px;">
                 <div class="col-md-6">
                     <div class="d-flex align-items-center gap-4">
                         <h2 class="display-2 text-light">
@@ -35,7 +35,9 @@
                 </div>
             
             </div>
-            </div>
+        </div>
+        <div class="rounded-4 p-5 position-relative d-none d-lg-block" style="width: 700px;height: 600px;margin-right : 30px; background-image: url(images/personal-pic.jpeg); background-size: cover; background-repeat: no-repeat;">
+            <!-- IMAGE -->
         </div>
     </div>
 </section>
