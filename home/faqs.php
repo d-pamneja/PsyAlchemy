@@ -14,78 +14,45 @@
             <div class="accordion-item border mb-3 rounded-3">
               <h5 class="accordion-header">
                 <button class="accordion-button collapsed" style="font-weight:bold;" type="button"
-                  data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
-                  aria-controls="collapseOne">
-                  Can I use credit cards or USD for payment?
+                  data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                  aria-controls="collapseThree">
+                  What is the mode of services?
                 </button>
               </h5>
-              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordion-flush"" >
-                                <div class=" accordion-body">
-                <p>Et nec ipsum tincidunt ut felis elementum proin eget dignissim egestas quis velit maecenas magnis.
-                  Etiam faucibus et ultrices sit aliquet ultrices.</p>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordion-flush">
+                <div class="accordion-body">
+                  <p>Convenient online video consultations for flexibility and comfort.</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="accordion-item border mb-3 rounded-3">
-            <h5 class="accordion-header">
-              <button class="accordion-button collapsed" style="font-weight:bold;" type="button"
-                data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
-                aria-controls="collapseTwo">
-                What times are you available for calls?
-              </button>
-            </h5>
-            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordion-flush">
-              <div class="accordion-body">
-                <p>Labore accusam in modo compungi, iacentem substantiales um se sed esse haec. Labore accusam in modo
-                  compungi, iacentem substantiales um se sed esse haec.</p>
+            <div class="accordion-item border mb-3 rounded-3">
+              <h5 class="accordion-header">
+                <button class="accordion-button collapsed" style="font-weight:bold;" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                  aria-controls="collapseTwo">
+                  What are the timings availabe of your services?
+                </button>
+              </h5>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordion-flush">
+                <div class="accordion-body">
+                  <p>I am available from 11:00 AM to 6:00 PM.</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="accordion-item border mb-3 rounded-3">
-            <h5 class="accordion-header">
-              <button class="accordion-button collapsed" style="font-weight:bold;" type="button"
-                data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
-                aria-controls="collapseThree">
-                How do I hire you for few months?
-              </button>
-            </h5>
-            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordion-flush">
-              <div class="accordion-body">
-                <p>Et nec ipsum tincidunt ut felis elementum proin eget dignissim egestas quis velit maecenas magnis.
-                  Etiam faucibus et ultrices sit aliquet ultrices.</p>
+            <div class="accordion-item border mb-3 rounded-3">
+                <h5 class="accordion-header">
+                  <button class="accordion-button collapsed" style="font-weight:bold;" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                    aria-controls="collapseOne">
+                    How can I pay for the services?
+                  </button>
+                </h5>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordion-flush"" >
+                                  <div class=" accordion-body">
+                  <p>You can pay me online via netbanking or UPI.</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="accordion-item border mb-3 rounded-3">
-            <h5 class="accordion-header">
-              <button class="accordion-button collapsed" style="font-weight:bold;" type="button"
-                data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
-                aria-controls="collapseFour">
-                Will I get the source files of my order?
-              </button>
-            </h5>
-            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordion-flush">
-              <div class="accordion-body">
-                <p>Et nec ipsum tincidunt ut felis elementum proin eget dignissim egestas quis velit maecenas magnis.
-                  Etiam faucibus et ultrices sit aliquet ultrices.</p>
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item border mb-3 rounded-3">
-            <h5 class="accordion-header">
-              <button class="accordion-button collapsed" style="font-weight:bold;" type="button"
-                data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false"
-                aria-controls="collapseFive">
-                Will I get the source files of my order?
-              </button>
-            </h5>
-            <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordion-flush">
-              <div class="accordion-body">
-                <p>Et nec ipsum tincidunt ut felis elementum proin eget dignissim egestas quis velit maecenas magnis.
-                  Etiam faucibus et ultrices sit aliquet ultrices.</p>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
