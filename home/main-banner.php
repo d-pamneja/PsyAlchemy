@@ -1,13 +1,23 @@
+<style>
+    .text-red h1 {
+        color: #d7746f;
+    }
+</style>
+
 <section style="margin-bottom : 70px;">
     <div class="container d-flex align-items-center justify-content-between">
         <div class="banner rounded-4 p-5 position-relative">
-            <div class="text-content text-black py-5">
+            <div class="text-content py-5">
                 <p class="fs-4">
                     Psychologist | CBT Therapist | Graphologist
                 </p>
-                <h1 class="display-1">
-                    Palchhin <br> Sharma
-                </h1>
+
+                <div class="text-red">
+                    <h1 class="display-1">
+                        Palchhin <br> Sharma
+                    </h1>
+                </div>
+                
                 <p class="fs-4">
                     BA + MA in Clinical Psychology
                 </p>
