@@ -1,4 +1,4 @@
-<section class="py-5" style="background-color:#fff4f3">
+<section class="py-5">
     <div class="container">
         <div class="text-center">
             <h2 class="display-3">

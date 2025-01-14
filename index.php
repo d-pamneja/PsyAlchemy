@@ -36,13 +36,15 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <!--style sheet-->
 
-     <!--AOS -->
+    <!--AOS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <link rel="stylesheet" href="css/style.css">
+    <!-- Link to Bootstrap CSS (if not already included) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
-<body>
+<body style="background-color: #e8d6e2">
     <!--svg icons-->
     <svg>
         <symbol id="skype" viewBox="0 0 24 24">
@@ -106,11 +108,10 @@
     <?php include 'shared/header.php'; ?>
 
     <div id="home-section" data-aos="zoom-in-up" data-aos-duration="1000">
-      <?php include 'home/main-banner.php'; ?>
+        <?php include 'home/main-banner.php'; ?>
     </div>
 
     <div id="about-section">
-        <?php include 'home/profession.php'; ?>
         <?php include 'home/about.php'; ?>
     </div>
 
@@ -221,10 +222,10 @@
     });
     </script>
 
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
     AOS.init();
-  </script>
+    </script>
 </body>
 
 </html>
