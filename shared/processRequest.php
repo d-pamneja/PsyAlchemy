@@ -11,9 +11,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['name'], $_POST['subjec
     $email = htmlspecialchars($_POST['email']);
     $message = htmlspecialchars($_POST['message']);
 
-    // Send an email (replace with your email address)
-    $to = "your-email@example.com";  // Replace with your email address
-    $headers = "From: " . $email;
+
+    $to = "dpamneja@gmail.com"; 
+    $headers = "From: $email";
     $body = "Name: $name\nSubject: $subject\nMessage: $message";
 
     if (mail($to, $subject, $body, $headers)) {
