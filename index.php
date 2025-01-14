@@ -44,7 +44,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
-<body style="background-color: #e8d6e2">
+<body style="background-color: #e8d6e2;">
     <!--svg icons-->
     <svg>
         <symbol id="skype" viewBox="0 0 24 24">
@@ -107,24 +107,24 @@
 
     <?php include 'shared/header.php'; ?>
 
-    <div id="home-section" data-aos="zoom-in-up" data-aos-duration="1000">
+    <div id="home-section" data-aos="zoom-in-up" data-aos-duration="1000" style="overflow-x: hidden;margin: 0;">
         <?php include 'home/main-banner.php'; ?>
     </div>
 
-    <div id="about-section">
+    <div id="about-section" style="overflow-x: hidden;margin: 0;">
         <?php include 'home/about.php'; ?>
     </div>
 
-    <div id="services-section">
+    <div id="services-section" style="overflow-x: hidden;margin: 0;">
         <?php include 'home/portfolio-services.php'; ?>
     </div>
-    <div id="blogs-section">
+    <div id="blogs-section" style="overflow-x: hidden;margin: 0;">
         <?php include("home/latestblogs.php")?>
     </div>
-    <div id="faqs-section" data-aos="fade-up" style="margin-bottom:50px">
+    <div id="faqs-section" data-aos="fade-up" style="overflow-x: hidden;margin-bottom:50px">
         <?php include("home/faqs.php")?>
     </div>
-    <div id="contact-section" data-aos="fade-up">
+    <div id="contact-section" data-aos="fade-up"style="overflow-x: hidden;margin: 0;">
         <?php include("home/contactus.php")?>
     </div>
 
