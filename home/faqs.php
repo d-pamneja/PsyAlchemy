@@ -1,3 +1,22 @@
+<style>
+  .accordion-button:not(.collapsed) {
+      background-color: transparent; 
+      color: inherit; 
+  }
+
+  .accordion-button {
+      background-color: transparent; 
+      color: inherit; 
+      border: none; 
+  }
+
+  .accordion-button:focus {
+      box-shadow: none; 
+  }
+
+  
+</style>
+
 <section>
     <div class="container">
       <div class="text-center pt-5">
@@ -9,7 +28,7 @@
         <div class="col-lg-6">
           <img src="images/illustration-6.png" class="img-fluid">
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6" style="margin-top:25px">
           <div class="accordion accordion-flush" id="accordion-flush">
             <div class="accordion-item border mb-3 rounded-3">
               <h5 class="accordion-header">
@@ -47,7 +66,7 @@
                     How can I pay for the services?
                   </button>
                 </h5>
-                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordion-flush"" >
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordion-flush" >
                                   <div class=" accordion-body">
                   <p>You can pay me online via netbanking or UPI.</p>
                 </div>

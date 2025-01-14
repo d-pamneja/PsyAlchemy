@@ -8,7 +8,7 @@
                     <p class="py-4" style="color: white;margin-left: 25px;">
                         Subscribe to newsletter to get some updates related with branding, designs and more.
                     </p>
-                    <div class="social-links" style="margin-left: 25px;">
+                    <div class="social-links" style="margin-left: 25px;margin-bottom: 25px;">
                         <!-- LinkedIn -->
                         <a href="https://www.linkedin.com/in/palchhin-sharma-1a356a206" target="_blank">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white"

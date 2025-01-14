@@ -7,7 +7,7 @@
 .image-container {
     width: 100%;
     min-height: 300px;
-    /* Minimum height for the image container on smaller screens */
+    overflow: hidden;
 }
 
 /* Make sure the image fills the container */
