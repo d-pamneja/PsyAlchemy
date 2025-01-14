@@ -118,7 +118,7 @@ h1.heading {
         <div class="banner rounded-4 p-5 position-relative mb-5 mb-lg-0 col-12 col-lg-6">
             <div class="text-content py-5">
                 <div class="text-red">
-                    <h1 class="display-1 heading">
+                    <h1 class="display-1 heading" style="margin-left: -25px;">
                         <b>Palchhin Sharma</b>
                     </h1>
                 </div>
