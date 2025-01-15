@@ -54,7 +54,7 @@
               </h5>
               <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordion-flush">
                 <div class="accordion-body">
-                  <p>I am available from 11:00 AM to 8:00 PM.</p>
+                  <p>Available from 11:00 AM to 8:00 PM.</p>
                 </div>
               </div>
             </div>
@@ -68,7 +68,7 @@
                 </h5>
                 <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordion-flush" >
                                   <div class=" accordion-body">
-                  <p>You can pay me online via netbanking or UPI.</p>
+                  <p>Netbanking or UPI.</p>
                 </div>
               </div>
             </div>
