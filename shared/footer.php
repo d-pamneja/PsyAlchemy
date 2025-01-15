@@ -62,7 +62,7 @@
             </div>
             <div class="col-md-5">
                 <p>
-                    Just feel free to contact if you wanna connect with me, or simply have a conversation.
+                    Just feel free to contact if you want to connect, or simply have a conversation.
                 </p>
                 <h3>
                     <a href="mailto:psyalchemy22@gmail.com"
